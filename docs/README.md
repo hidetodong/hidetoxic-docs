@@ -1,8 +1,10 @@
 ---
 home: true
+title: 首页
 heroImage: hidetoxic_logo.png
-actionText: 开始阅读
-actionLink: /summary/warning/
+actions: 
+- text: 开始阅读
+  link: /summary/warning/ 
 features:
 - title: Frontend
   details: 前端无责任指北

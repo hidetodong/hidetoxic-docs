@@ -1,5 +1,5 @@
 export const pagesRoutes = [
-  ["v-8daa1a0e","/",{"t":""},["/index.html","/README.md"]],
+  ["v-8daa1a0e","/",{"t":"首页"},["/index.html","/README.md"]],
   ["v-14e6315a","/life/",{"t":""},["/life/index.html","/life/README.md"]],
   ["v-8b5bbf24","/life/aboutme.html",{"t":"关于我是谁"},["/life/aboutme","/life/aboutme.md"]],
   ["v-47ca866e","/life/custom.html",{"t":"客制化人生"},["/life/custom","/life/custom.md"]],
