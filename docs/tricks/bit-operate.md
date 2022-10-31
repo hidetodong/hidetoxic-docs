@@ -88,9 +88,6 @@ status = clearStatus(status,0b0010) // status = 0b0000
 
 
 ## 实际用例探索
-<!-- 
-
-
 我们可以使用位操作来操作权限
 ```javascript
 const statusEnum = {
@@ -100,7 +97,7 @@ const statusEnum = {
     SENIOR:/**大四*/0b1000
 }
 
-``` -->
+``` 
 
 
 

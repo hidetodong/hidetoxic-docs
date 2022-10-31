@@ -1,0 +1,161 @@
+{
+  "main": {
+    "id": "81a942f1e11d3004",
+    "type": "split",
+    "children": [
+      {
+        "id": "e782a9f9d633efa4",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "docs/tricks/bit-operate.md",
+            "mode": "source",
+            "source": true
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b515ca557217c4eb",
+    "type": "split",
+    "children": [
+      {
+        "id": "250ba78fe901a358",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dc1b117c69f7dc4d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "f1b4fa021ed01f4e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "a6a632059b2a6888",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "fab8b8dff2ebdad8",
+    "type": "split",
+    "children": [
+      {
+        "id": "d377c51c4f0767f7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b3c714f1bc90c480",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "docs/tricks/bit-operate.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "cd1649769ae87d79",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "docs/tricks/bit-operate.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "872b0a5f60ff4c6b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "dac8c63df2828eea",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "docs/tricks/bit-operate.md"
+              }
+            }
+          },
+          {
+            "id": "5e2e043221cec4e2",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "d83711be8c2776e8",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "6c2316cece1d6ee8",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "active": "d83711be8c2776e8",
+  "lastOpenFiles": [
+    "docs/frontend/js/js-related.md",
+    "Excalidraw/Drawing 2022-07-18 22.45.06.excalidraw.md",
+    "Vue3/1.响应式原理.md"
+  ]
+}
