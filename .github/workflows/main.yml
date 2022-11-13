@@ -7,6 +7,8 @@ on:
         
 env:
     SECRET: ${{ secrets.ALI_TOKEN }}
+    HOST: ${{ secrets.DEPLOY_HOST }}
+    USER: ${{ secrets.DEPLOY_USER }}
     cache-name: note
 
 
@@ -51,6 +53,6 @@ jobs:
                 switches: -avzr --delete
                 path: docs/.vuepress/dist/
                 remote_path: /var/www/html/site/HIDETOXIC/docs/dist/
-                remote_host: 47.111.154.112
-                remote_user: root
+                remote_host: ${{ env.HOST }}
+                remote_user: ${{ env.USER }}
                 remote_key: ${{ env.SECRET }}
