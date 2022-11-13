@@ -6,6 +6,7 @@ on:
         branches: [main]
         
 env:
+    SECRET: ${{ secrets.ALI_TOKEN }}
     cache-name: note
 
 
@@ -47,9 +48,9 @@ jobs:
             - name: Deploy
               uses: easingthemes/ssh-deploy@v2.0.7
               env:
-                  SSH_PRIVATE_KEY: ${{ secrets.DEPLOY_PASS }}
+                  SSH_PRIVATE_KEY: ${{ env.SECRET }}
                   ARGS: "-avz --delete"
                   SOURCE: "docs/.vuepress/dist"
-                  REMOTE_HOST: ${{ secrets.DEPLOY_HOST }}
-                  REMOTE_USER: ${{ secrets.DEPLOY_USER }}
+                  REMOTE_HOST: "47.111.154.112"
+                  REMOTE_USER: "root"
                   TARGET: "/var/www/html/site/HIDETOXIC/docs/dist"
