@@ -44,7 +44,7 @@ jobs:
 
             # 打包
             - name: Build
-              run: yarn build
+              run: yarn docs:build
 
             # 上传打包资源
             - name: Deploy
