@@ -43,14 +43,14 @@ jobs:
             # 打包
             - name: Build
               run: yarn docs:build
-
-            # 上传打包资源
-            - name: Deploy
-              uses: easingthemes/ssh-deploy@v2.0.7
-              env:
-                  SSH_PRIVATE_KEY: ${{ env.SECRET }}
-                  ARGS: "-avz --delete"
-                  SOURCE: "docs/.vuepress/dist"
-                  REMOTE_HOST: "47.111.154.112"
-                  REMOTE_USER: "root"
-                  TARGET: "/var/www/html/site/HIDETOXIC/docs/dist"
+                
+            # 上传打包
+            - name: Rsync Deployments Action
+              uses: Burnett01/rsync-deployments@5.2.1
+              with:
+                switches: -avzr --delete
+                path: docs/.vuepress/dist/
+                remote_path: /var/www/html/site/HIDETOXIC/docs/dist/
+                remote_host: 47.111.154.112
+                remote_user: root
+                remote_key: ${{ secrets.DEPLOY_KEY }}
