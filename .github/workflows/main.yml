@@ -53,4 +53,4 @@ jobs:
                 remote_path: /var/www/html/site/HIDETOXIC/docs/dist/
                 remote_host: 47.111.154.112
                 remote_user: root
-                remote_key: ${{ secrets.DEPLOY_KEY }}
+                remote_key: ${{ secrets.SECRET }}
