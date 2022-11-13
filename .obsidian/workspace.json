@@ -4,16 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "1934a310ba5e4d3d",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "docs/tricks/docker/docker-use.md",
-            "mode": "source",
-            "source": false
+        "id": "215c1429c7cba9f8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1934a310ba5e4d3d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/tricks/docker/docker-use.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "13212b2e56f99634",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/tricks/npm   + typescript.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        }
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -31,7 +50,9 @@
             "type": "leaf",
             "state": {
               "type": "file-explorer",
-              "state": {}
+              "state": {
+                "sortOrder": "alphabetical"
+              }
             }
           },
           {
@@ -77,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/tricks/docker/docker-use.md",
+                "file": "docs/tricks/npm   + typescript.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/tricks/docker/docker-use.md",
+                "file": "docs/tricks/npm   + typescript.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/tricks/docker/docker-use.md"
+                "file": "docs/tricks/npm   + typescript.md"
               }
             }
           },
@@ -152,10 +173,10 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "1934a310ba5e4d3d",
+  "active": "13212b2e56f99634",
   "lastOpenFiles": [
-    "docs/tricks/docker/README.md",
     "docs/tricks/docker/docker-use.md",
+    "docs/tricks/docker/README.md",
     "docs/tricks/bit-operate.md",
     "docs/frontend/js/js-related.md",
     "Excalidraw/Drawing 2022-07-18 22.45.06.excalidraw.md",

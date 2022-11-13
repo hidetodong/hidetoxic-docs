@@ -90,12 +90,12 @@ status = clearStatus(status,0b0010) // status = 0b0000
 ## 实际用例探索
 我们可以使用位操作来操作权限
 ```javascript
-const statusEnum = {
-    FRESHMAN:/** 大一 */0b0001,
-    SOPHOMORE:/** 大二*/0b0010,
-    JUNIOR:/**大三*/0b0100,
-    SENIOR:/**大四*/0b1000
-}
+	const statusEnum = {
+	    FRESHMAN:/** 大一 */0b0001,
+	    SOPHOMORE:/** 大二*/0b0010,
+	    JUNIOR:/**大三*/0b0100,
+	    SENIOR:/**大四*/0b1000
+	}
 
 ``` 
 
