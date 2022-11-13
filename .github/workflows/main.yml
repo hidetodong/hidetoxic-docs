@@ -20,7 +20,7 @@ jobs:
 
             - uses: actions/setup-node@v1
               with:
-                  node-version: v14.17.0
+                  node-version: v16.0.0
 
             #缓存依赖
             - name: Cache nodemodules
