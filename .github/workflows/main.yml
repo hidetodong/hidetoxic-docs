@@ -48,8 +48,8 @@ jobs:
               uses: easingthemes/ssh-deploy@v2.0.7
               env:
                   SSH_PRIVATE_KEY: ${{ secrets.DEPLOY_PASS }}
-                  ARGS: '-avz --delete'
-                  SOURCE: 'docs/.vuepress/dist'
+                  ARGS: "-avz --delete"
+                  SOURCE: "docs/.vuepress/dist"
                   REMOTE_HOST: ${{ secrets.DEPLOY_HOST }}
                   REMOTE_USER: ${{ secrets.DEPLOY_USER }}
-                  TARGET: /var/www/html/site/HIDETOXIC/docs/dist
+                  TARGET: "/var/www/html/site/HIDETOXIC/docs/dist"
