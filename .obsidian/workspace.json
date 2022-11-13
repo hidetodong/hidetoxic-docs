@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "0cf4fca4066f367a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/tricks/NIM-service.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/tricks/npm   + typescript.md",
+                "file": "docs/tricks/NIM-service.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/tricks/npm   + typescript.md",
+                "file": "docs/tricks/NIM-service.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/tricks/npm   + typescript.md"
+                "file": "docs/tricks/NIM-service.md"
               }
             }
           },
@@ -173,13 +185,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "13212b2e56f99634",
+  "active": "0cf4fca4066f367a",
   "lastOpenFiles": [
+    "docs/tricks/node-cli.md",
+    "docs/tricks/npm   + typescript.md",
+    "docs/tricks/README.md",
+    "docs/tricks/embed.md",
+    "docs/tricks/js-img-save.md",
+    "docs/tricks/husky.md",
+    "docs/tricks/github-actions/ssh.md",
     "docs/tricks/docker/docker-use.md",
     "docs/tricks/docker/README.md",
-    "docs/tricks/bit-operate.md",
-    "docs/frontend/js/js-related.md",
-    "Excalidraw/Drawing 2022-07-18 22.45.06.excalidraw.md",
-    "Vue3/1.响应式原理.md"
+    "docs/tricks/bit-operate.md"
   ]
 }
