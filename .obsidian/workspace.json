@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/tricks/NIM-service.md",
+                "file": "docs/tricks/vue/reactivity.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/tricks/NIM-service.md",
+                "file": "docs/tricks/vue/reactivity.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/tricks/NIM-service.md",
+                "file": "docs/tricks/vue/reactivity.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/tricks/NIM-service.md"
+                "file": "docs/tricks/vue/reactivity.md"
               }
             }
           },
@@ -187,6 +187,8 @@
   },
   "active": "0cf4fca4066f367a",
   "lastOpenFiles": [
+    "docs/tricks/vue/1.响应式原理 - Reactivity.md",
+    "docs/tricks/NIM-service.md",
     "docs/tricks/node-cli.md",
     "docs/tricks/npm   + typescript.md",
     "docs/tricks/README.md",
@@ -194,8 +196,6 @@
     "docs/tricks/js-img-save.md",
     "docs/tricks/husky.md",
     "docs/tricks/github-actions/ssh.md",
-    "docs/tricks/docker/docker-use.md",
-    "docs/tricks/docker/README.md",
-    "docs/tricks/bit-operate.md"
+    "docs/tricks/docker/docker-use.md"
   ]
 }

@@ -45,6 +45,13 @@ export default defineUserConfig({
             collapsable:true,
             sidebarDepth:2,
             children:["/tricks/github-actions/ssh.md"]
+          },
+          {
+            text:'Vue',
+            path:'/tricks/vue/',
+            collapsable:true,
+            sidebarDepth:2,
+            children:["/tricks/vue/reactivity.md"]
           }
           // '/tricks/node-cli'
           // '/life/custom'
