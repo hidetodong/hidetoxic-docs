@@ -54,9 +54,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "3e3ebb225c302269",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/tricks/vite/no-bundle.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -122,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/tricks/vite/virtual-module.md",
+                "file": "docs/tricks/vite/no-bundle.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/tricks/vite/virtual-module.md",
+                "file": "docs/tricks/vite/no-bundle.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/tricks/vite/virtual-module.md"
+                "file": "docs/tricks/vite/no-bundle.md"
               }
             }
           },
@@ -197,17 +209,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "eb5f995403ed0c02",
+  "active": "3e3ebb225c302269",
   "lastOpenFiles": [
     "docs/tricks/vue/reactivity.md",
+    "docs/tricks/vite/no-bundle.md",
+    "docs/tricks/vite/virtual-module.md",
     "docs/tricks/vue/1.响应式原理 - Reactivity.md",
     "docs/tricks/NIM-service.md",
     "docs/tricks/node-cli.md",
     "docs/tricks/npm   + typescript.md",
     "docs/tricks/README.md",
     "docs/tricks/embed.md",
-    "docs/tricks/js-img-save.md",
-    "docs/tricks/husky.md",
-    "docs/tricks/github-actions/ssh.md"
+    "docs/tricks/js-img-save.md"
   ]
 }

@@ -4,9 +4,9 @@ export default defineUserConfig({
   lang: "zh-CN",
   title: "HIDETOXIC",
   description: "理想的面目，半身霓虹，半身干枯",
-  head: [['link', { rel: 'icon', href: '/hidetoxic_logo.png' }]],
+  head: [["link", { rel: "icon", href: "/hidetoxic_logo.png" }]],
   theme: hopeTheme({
-    logo:'/hidetoxic_logo.png',
+    logo: "/hidetoxic_logo.png",
     fullscreen: true,
     backToTop: true,
     sidebar: [
@@ -40,26 +40,29 @@ export default defineUserConfig({
             children: ["/tricks/docker/docker-use.md"],
           },
           {
-            text:'Github Actions',
-            path:"/tricks/github-actions/",
-            collapsable:true,
-            sidebarDepth:2,
-            children:["/tricks/github-actions/ssh.md"]
+            text: "Github Actions",
+            path: "/tricks/github-actions/",
+            collapsable: true,
+            sidebarDepth: 2,
+            children: ["/tricks/github-actions/ssh.md"],
           },
           {
-            text:'Vue',
-            path:'/tricks/vue/',
-            collapsable:true,
-            sidebarDepth:2,
-            children:["/tricks/vue/reactivity.md"]
+            text: "Vue",
+            path: "/tricks/vue/",
+            collapsable: true,
+            sidebarDepth: 2,
+            children: ["/tricks/vue/reactivity.md"],
           },
           {
-            text:'Vite',
-            path:'/tricks/vite/',
-            collapsable:true,
-            sidebarDepth:2,
-            children:["/tricks/vite/virtual-module.md"]
-          }
+            text: "Vite",
+            path: "/tricks/vite/",
+            collapsable: true,
+            sidebarDepth: 2,
+            children: [
+              "/tricks/vite/virtual-module.md",
+              "/tricks/vite/no-bundle.md",
+            ],
+          },
           // '/tricks/node-cli'
           // '/life/custom'
         ],
