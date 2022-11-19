@@ -27,11 +27,11 @@ export default defineUserConfig({
           "/tricks/css-tricks.md",
           "/tricks/js-img-save.md",
           "/tricks/js-total.md",
-          "/tricks/date-picker.md",
+          // "/tricks/date-picker.md",
           "/tricks/webpack.md",
           "/tricks/bit-operate.md",
-          '/tricks/NIM-service',
-          '/tricks/tcplayer',
+          // '/tricks/NIM-service',
+          // '/tricks/tcplayer',
           {
             text: "DOCKER", // 必要的
             path: "/tricks/docker/", // 可选的, 标题的跳转链接，应为绝对路径且必须存在
@@ -52,6 +52,13 @@ export default defineUserConfig({
             collapsable:true,
             sidebarDepth:2,
             children:["/tricks/vue/reactivity.md"]
+          },
+          {
+            text:'Vite',
+            path:'/tricks/vite/',
+            collapsable:true,
+            sidebarDepth:2,
+            children:["/tricks/vite/virtual-module.md"]
           }
           // '/tricks/node-cli'
           // '/life/custom'

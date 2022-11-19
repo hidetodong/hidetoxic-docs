@@ -42,9 +42,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "eb5f995403ed0c02",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/tricks/vite/virtual-module.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/tricks/vue/reactivity.md",
+                "file": "docs/tricks/vite/virtual-module.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/tricks/vue/reactivity.md",
+                "file": "docs/tricks/vite/virtual-module.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/tricks/vue/reactivity.md"
+                "file": "docs/tricks/vite/virtual-module.md"
               }
             }
           },
@@ -185,8 +197,9 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "0cf4fca4066f367a",
+  "active": "eb5f995403ed0c02",
   "lastOpenFiles": [
+    "docs/tricks/vue/reactivity.md",
     "docs/tricks/vue/1.响应式原理 - Reactivity.md",
     "docs/tricks/NIM-service.md",
     "docs/tricks/node-cli.md",
@@ -195,7 +208,6 @@
     "docs/tricks/embed.md",
     "docs/tricks/js-img-save.md",
     "docs/tricks/husky.md",
-    "docs/tricks/github-actions/ssh.md",
-    "docs/tricks/docker/docker-use.md"
+    "docs/tricks/github-actions/ssh.md"
   ]
 }
