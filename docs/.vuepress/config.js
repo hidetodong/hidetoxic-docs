@@ -13,14 +13,14 @@ export default defineUserConfig({
       {
         text: "概要",
         path: "/summary/",
-        collapsable: false, // 可选的, 默认值是 true,
+        collapsable: true, // 可选的, 默认值是 true,
         sidebarDepth: 1, // 可选的, 默认值是 1
         children: ["/summary/warning.md"],
       },
       {
         text: "前端技术指北",
         path: "/tricks/",
-        collapsable: false, // 可选的, 默认值是 true,
+        collapsable: true, // 可选的, 默认值是 true,
         sidebarDepth: 1, // 可选的, 默认值是 1
         children: [
           "/tricks/embed.md",
@@ -61,6 +61,7 @@ export default defineUserConfig({
             children: [
               "/tricks/vite/virtual-module.md",
               "/tricks/vite/no-bundle.md",
+              "/tricks/vite/esbuild.md",
             ],
           },
           // '/tricks/node-cli'

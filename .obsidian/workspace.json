@@ -66,9 +66,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "eab7bc91cb851b1e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/tricks/vite/esbuild.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -134,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/tricks/vite/no-bundle.md",
+                "file": "docs/tricks/vite/esbuild.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/tricks/vite/no-bundle.md",
+                "file": "docs/tricks/vite/esbuild.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/tricks/vite/no-bundle.md"
+                "file": "docs/tricks/vite/esbuild.md"
               }
             }
           },
@@ -209,17 +221,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "3e3ebb225c302269",
+  "active": "eab7bc91cb851b1e",
   "lastOpenFiles": [
-    "docs/tricks/vue/reactivity.md",
     "docs/tricks/vite/no-bundle.md",
     "docs/tricks/vite/virtual-module.md",
+    "docs/tricks/vite/esbuild.md",
+    "docs/tricks/vue/reactivity.md",
     "docs/tricks/vue/1.响应式原理 - Reactivity.md",
     "docs/tricks/NIM-service.md",
     "docs/tricks/node-cli.md",
     "docs/tricks/npm   + typescript.md",
     "docs/tricks/README.md",
-    "docs/tricks/embed.md",
-    "docs/tricks/js-img-save.md"
+    "docs/tricks/embed.md"
   ]
 }
